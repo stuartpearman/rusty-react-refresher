@@ -1,0 +1,37 @@
+body {
+    font-family: avenir, sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.card {
+    padding: 5px 25px 15px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    margin: 16px 0 16px;
+}
+
+.result-correct {
+    font-weight: bold;
+    color: #5a7;
+}
+
+.result-incorrect {
+    font-weight: bold;
+    color: #a43;
+}
+
+.trivia-answer {
+    cursor: pointer;
+    padding: 8px 20px;
+}
+
+.trivia-answer:hover {
+    font-weight: bold;
+    background: #eee;
+}
